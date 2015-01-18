@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2146B0C31078851D00FE19DA /* SuperVIAATARoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* SuperVIAATARoot.cpp */; };
+		2146B0C41078851D00FE19DA /* SuperVIAATAChannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F547B64605CEA49A003145B8 /* SuperVIAATAChannel.cpp */; };
+		2146B0C51078851D00FE19DA /* SuperVIAATADriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 427B811C05D00D0C002E36B6 /* SuperVIAATADriver.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A224C3EFF42367911CA2CB7 /* SuperVIAATARoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperVIAATARoot.h; sourceTree = "<group>"; };
+		1A224C3FFF42367911CA2CB7 /* SuperVIAATARoot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuperVIAATARoot.cpp; sourceTree = "<group>"; };
+		2146B02B1078803800FE19DA /* SuperVIAATA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperVIAATA-Info.plist"; sourceTree = "<group>"; };
+		2146B0BD1078850300FE19DA /* SuperVIAATA.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperVIAATA.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		427B811B05D00D0C002E36B6 /* SuperVIAATADriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperVIAATADriver.h; sourceTree = "<group>"; };
+		427B811C05D00D0C002E36B6 /* SuperVIAATADriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuperVIAATADriver.cpp; sourceTree = "<group>"; };
+		427B812105D03550002E36B6 /* SuperVIAATATiming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperVIAATATiming.h; sourceTree = "<group>"; };
+		F547B64505CEA49A003145B8 /* SuperVIAATAChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperVIAATAChannel.h; sourceTree = "<group>"; };
+		F547B64605CEA49A003145B8 /* SuperVIAATAChannel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuperVIAATAChannel.cpp; sourceTree = "<group>"; };
+		F554955305CD7DEF003B379E /* SuperVIAATAHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperVIAATAHardware.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2146B0BB1078850300FE19DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* SuperVIAATA */ = {
+			isa = PBXGroup;
+			children = (
+				247142CAFF3F8F9811CA285C /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+				2146B02B1078803800FE19DA /* SuperVIAATA-Info.plist */,
+			);
+			name = SuperVIAATA;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2146B0BD1078850300FE19DA /* SuperVIAATA.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247142CAFF3F8F9811CA285C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1A224C3EFF42367911CA2CB7 /* SuperVIAATARoot.h */,
+				1A224C3FFF42367911CA2CB7 /* SuperVIAATARoot.cpp */,
+				F547B64505CEA49A003145B8 /* SuperVIAATAChannel.h */,
+				F547B64605CEA49A003145B8 /* SuperVIAATAChannel.cpp */,
+				F554955305CD7DEF003B379E /* SuperVIAATAHardware.h */,
+				427B812105D03550002E36B6 /* SuperVIAATATiming.h */,
+				427B811B05D00D0C002E36B6 /* SuperVIAATADriver.h */,
+				427B811C05D00D0C002E36B6 /* SuperVIAATADriver.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2146B0BC1078850300FE19DA /* SuperVIAATA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2146B0C91078854300FE19DA /* Build configuration list for PBXNativeTarget "SuperVIAATA" */;
+			buildPhases = (
+				2146B0B91078850300FE19DA /* Sources */,
+				2146B0BA1078850300FE19DA /* Resources */,
+				2146B0BB1078850300FE19DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperVIAATA;
+			productName = SuperVIAATA;
+			productReference = 2146B0BD1078850300FE19DA /* SuperVIAATA.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = DAB8DA140E8878680019493B /* Build configuration list for PBXProject "SuperVIAATA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* SuperVIAATA */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2146B0BC1078850300FE19DA /* SuperVIAATA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2146B0BA1078850300FE19DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2146B0B91078850300FE19DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2146B0C31078851D00FE19DA /* SuperVIAATARoot.cpp in Sources */,
+				2146B0C41078851D00FE19DA /* SuperVIAATAChannel.cpp in Sources */,
+				2146B0C51078851D00FE19DA /* SuperVIAATADriver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2146B0BE1078850300FE19DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0d1;
+				DYLIB_CURRENT_VERSION = 1.0.3;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_UNROLL_LOOPS = YES;
+				INFOPLIST_FILE = "SuperVIAATA-Info.plist";
+				MODULE_NAME = com.c0rk007hck.SuperVIAATA;
+				MODULE_VERSION = 1.0.3;
+				PREBINDING = NO;
+				PRODUCT_NAME = SuperVIAATA;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		2146B0BF1078850300FE19DA /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0d1;
+				DYLIB_CURRENT_VERSION = 1.0.3;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_UNROLL_LOOPS = YES;
+				INFOPLIST_FILE = "SuperVIAATA-Info.plist";
+				MODULE_NAME = com.c0rk007hck.SuperVIAATA;
+				MODULE_VERSION = 1.0.3;
+				PREBINDING = NO;
+				PRODUCT_NAME = SuperVIAATA;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+				WRAPPER_EXTENSION = kext;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2146B0C01078850300FE19DA /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0d1;
+				DYLIB_CURRENT_VERSION = 1.0.3;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_UNROLL_LOOPS = YES;
+				INFOPLIST_FILE = "SuperVIAATA-Info.plist";
+				MODULE_NAME = com.c0rk007hck.SuperVIAATA;
+				MODULE_VERSION = 1.0.3;
+				PREBINDING = NO;
+				PRODUCT_NAME = SuperVIAATA;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Default;
+		};
+		DAB8DA0E0E8878680019493B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Andy Vandijck (GSF3NR4NQ5)";
+				INFOPLIST_FILE = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DAB8DA0F0E8878680019493B /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Andy Vandijck (GSF3NR4NQ5)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Deployment;
+		};
+		DAB8DA100E8878680019493B /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Andy Vandijck (GSF3NR4NQ5)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2146B0C91078854300FE19DA /* Build configuration list for PBXNativeTarget "SuperVIAATA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2146B0BE1078850300FE19DA /* Debug */,
+				2146B0BF1078850300FE19DA /* Deployment */,
+				2146B0C01078850300FE19DA /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAB8DA140E8878680019493B /* Build configuration list for PBXProject "SuperVIAATA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB8DA0E0E8878680019493B /* Debug */,
+				DAB8DA0F0E8878680019493B /* Deployment */,
+				DAB8DA100E8878680019493B /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

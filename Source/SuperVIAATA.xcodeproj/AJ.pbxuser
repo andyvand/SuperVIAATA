@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = 2146B0BC1078850300FE19DA /* SuperVIAATA */;
+		codeSenseManager = 2134DB95106F57CA00589CAE /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_FiletypeID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					767,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					727,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 276340979;
+			PBXWorkspaceStateSaveDate = 276340979;
+		};
+		perUserProjectItems = {
+			2121C67B1078A10E00FD82D3 /* PBXTextBookmark */ = 2121C67B1078A10E00FD82D3 /* PBXTextBookmark */;
+			2121C67C1078A10E00FD82D3 /* PBXTextBookmark */ = 2121C67C1078A10E00FD82D3 /* PBXTextBookmark */;
+			2121C67D1078A10E00FD82D3 /* PBXTextBookmark */ = 2121C67D1078A10E00FD82D3 /* PBXTextBookmark */;
+			2121C67E1078A10E00FD82D3 /* PBXBookmark */ = 2121C67E1078A10E00FD82D3 /* PBXBookmark */;
+			2121C68B1078BCA600FD82D3 /* PBXTextBookmark */ = 2121C68B1078BCA600FD82D3 /* PBXTextBookmark */;
+			2146B10A1078868200FE19DA /* PBXTextBookmark */ = 2146B10A1078868200FE19DA /* PBXTextBookmark */;
+			214D92821078A040004EF29F /* PBXTextBookmark */ = 214D92821078A040004EF29F /* PBXTextBookmark */;
+			214D92831078A040004EF29F /* PlistBookmark */ = 214D92831078A040004EF29F /* PlistBookmark */;
+			214D92841078A040004EF29F /* PBXTextBookmark */ = 214D92841078A040004EF29F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2134DB94106F57CA00589CAE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {945, 345}}";
+			sepNavSelRange = "{252, 0}";
+			sepNavVisRange = "{0, 255}";
+		};
+	};
+	1A224C3EFF42367911CA2CB7 /* SuperVIAATARoot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {945, 1339}}";
+			sepNavSelRange = "{3448, 0}";
+			sepNavVisRange = "{2676, 782}";
+			sepNavWindowFrame = "{{130, 360}, {750, 558}}";
+		};
+	};
+	1A224C3FFF42367911CA2CB7 /* SuperVIAATARoot.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {945, 8528}}";
+			sepNavSelRange = "{6929, 0}";
+			sepNavVisRange = "{6754, 766}";
+		};
+	};
+	2121C67B1078A10E00FD82D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 427B811C05D00D0C002E36B6 /* SuperVIAATADriver.cpp */;
+		name = "SuperVIAATADriver.cpp: 245";
+		rLen = 6;
+		rLoc = 7749;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 7257;
+	};
+	2121C67C1078A10E00FD82D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* SuperVIAATARoot.cpp */;
+		name = "SuperVIAATARoot.cpp: 244";
+		rLen = 0;
+		rLoc = 6929;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 6754;
+	};
+	2121C67D1078A10E00FD82D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F547B64505CEA49A003145B8 /* SuperVIAATAChannel.h */;
+		name = "SuperVIAATAChannel.h: 92";
+		rLen = 0;
+		rLoc = 2999;
+		rType = 0;
+		vrLen = 636;
+		vrLoc = 2368;
+	};
+	2121C67E1078A10E00FD82D3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F547B64605CEA49A003145B8 /* SuperVIAATAChannel.cpp */;
+	};
+	2121C68B1078BCA600FD82D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F547B64605CEA49A003145B8 /* SuperVIAATAChannel.cpp */;
+		name = "SuperVIAATAChannel.cpp: 22";
+		rLen = 0;
+		rLoc = 934;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 442;
+	};
+	2134DB94106F57CA00589CAE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	2134DB95106F57CA00589CAE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2146B06F107882F300FE19DA /* locks.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = locks.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Kernel.framework/Headers/machine/locks.h;
+		sourceTree = "<absolute>";
+	};
+	2146B0BC1078850300FE19DA /* SuperVIAATA */ = {
+		activeExec = 0;
+	};
+	2146B10A1078868200FE19DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2146B06F107882F300FE19DA /* locks.h */;
+		name = "locks.h: 38";
+		rLen = 0;
+		rLoc = 1529;
+		rType = 0;
+		vrLen = 1123;
+		vrLoc = 479;
+	};
+	214D92821078A040004EF29F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 4";
+		rLen = 0;
+		rLoc = 252;
+		rType = 0;
+		vrLen = 255;
+		vrLoc = 0;
+	};
+	214D92831078A040004EF29F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 2146B02B1078803800FE19DA /* SuperVIAATA-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			IOKitPersonalities,
+			"VIA SATA Controller",
+		);
+		name = "/Users/AJ/SuperVIAATA/SuperVIAATA-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	214D92841078A040004EF29F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3EFF42367911CA2CB7 /* SuperVIAATARoot.h */;
+		name = "SuperVIAATARoot.h: 102";
+		rLen = 0;
+		rLoc = 3448;
+		rType = 0;
+		vrLen = 782;
+		vrLoc = 2676;
+	};
+	427B811B05D00D0C002E36B6 /* SuperVIAATADriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {945, 2067}}";
+			sepNavSelRange = "{1215, 0}";
+			sepNavVisRange = "{4545, 800}";
+		};
+	};
+	427B811C05D00D0C002E36B6 /* SuperVIAATADriver.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 17680}}";
+			sepNavSelRange = "{2773, 10}";
+			sepNavVisRange = "{2456, 525}";
+			sepNavWindowFrame = "{{183, 142}, {1212, 658}}";
+		};
+	};
+	427B812105D03550002E36B6 /* SuperVIAATATiming.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {945, 2366}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1184}";
+		};
+	};
+	F547B64505CEA49A003145B8 /* SuperVIAATAChannel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {945, 1235}}";
+			sepNavSelRange = "{2999, 0}";
+			sepNavVisRange = "{2368, 636}";
+			sepNavWindowFrame = "{{15, 365}, {1212, 658}}";
+		};
+	};
+	F547B64605CEA49A003145B8 /* SuperVIAATAChannel.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {945, 3341}}";
+			sepNavSelRange = "{934, 0}";
+			sepNavVisRange = "{442, 866}";
+			sepNavWindowFrame = "{{107, 381}, {750, 558}}";
+		};
+	};
+	F554955305CD7DEF003B379E /* SuperVIAATAHardware.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 1885}}";
+			sepNavSelRange = "{4395, 6}";
+			sepNavVisRange = "{4089, 591}";
+			sepNavWindowFrame = "{{15, 365}, {1212, 658}}";
+		};
+	};
+}

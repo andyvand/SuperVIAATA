@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089C1680FE841241C02AAC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		1A224C40FF42367911CA2CB7 /* AppleVIAATARoot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A224C3EFF42367911CA2CB7 /* AppleVIAATARoot.h */; };
+		1A224C41FF42367911CA2CB7 /* AppleVIAATARoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* AppleVIAATARoot.cpp */; settings = {ATTRIBUTES = (); }; };
+		427B811D05D00D0C002E36B6 /* AppleVIAATADriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 427B811B05D00D0C002E36B6 /* AppleVIAATADriver.h */; };
+		427B811E05D00D0C002E36B6 /* AppleVIAATADriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 427B811C05D00D0C002E36B6 /* AppleVIAATADriver.cpp */; };
+		427B812205D03550002E36B6 /* AppleVIAATATiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 427B812105D03550002E36B6 /* AppleVIAATATiming.h */; };
+		F547B64705CEA49A003145B8 /* AppleVIAATAChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = F547B64505CEA49A003145B8 /* AppleVIAATAChannel.h */; };
+		F547B64805CEA49A003145B8 /* AppleVIAATAChannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F547B64605CEA49A003145B8 /* AppleVIAATAChannel.cpp */; };
+		F554955405CD7DEF003B379E /* AppleVIAATAHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = F554955305CD7DEF003B379E /* AppleVIAATAHardware.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBundleTarget section */
+		089C1673FE841209C02AAC07 /* AppleVIAATA */ = {
+			isa = PBXBundleTarget;
+			buildConfigurationList = DAB8DA150E8878680019493B /* Build configuration list for PBXBundleTarget "AppleVIAATA" */;
+			buildPhases = (
+				06AA1267FFB2110C11CA28AA /* ShellScript */,
+				089C1674FE841209C02AAC07 /* Headers */,
+				089C1675FE841209C02AAC07 /* Resources */,
+				089C1676FE841209C02AAC07 /* Sources */,
+				089C1677FE841209C02AAC07 /* Frameworks */,
+				089C1679FE841209C02AAC07 /* Rez */,
+				06AA1264FFB2107B11CA28AA /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = AppleVIAATA;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions/IOATAFamily.kext/Contents/PlugIns";
+			productName = AppleVIAATA;
+			productReference = 0B81C263FFB7832611CA28AA /* AppleVIAATA.kext */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AppleVIAATA</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0.3, Copyright Apple Computer, Inc. 2004</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.driver.AppleVIAATA</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Apple VIA ATA Driver</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.3</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>VIA ATA Driver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleVIAATA</string>
+			<key>IOClass</key>
+			<string>AppleVIAATADriver</string>
+			<key>IOProviderClass</key>
+			<string>AppleVIAATAChannel</string>
+		</dict>
+		<key>VIA PATA Controller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleVIAATA</string>
+			<key>Hardware Name</key>
+			<string>82C571</string>
+			<key>IOClass</key>
+			<string>AppleVIAATARoot</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x05711106 0x610111AB</string>
+			<key>IOProbeScore</key>
+			<integer>1000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>ISA Bridge Matching</key>
+			<dict>
+				<key>IOPCIClassMatch</key>
+				<string>0x06010000&amp;0xffff0000</string>
+				<key>IOProviderClass</key>
+				<string>IOPCIDevice</string>
+			</dict>
+			<key>Serial ATA</key>
+			<false/>
+		</dict>
+		<key>VIA SATA Controller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleVIAATA</string>
+			<key>Hardware Name</key>
+			<string>8237 SATA</string>
+			<key>IOClass</key>
+			<string>AppleVIAATARoot</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x43851002 0x43801002 0x43791002 0x43761002 0x528810b9 0x31491106 0x35121095 0x2360197b 0x2361197b 0x2363197b 0x2365197b 0x2366197b 0x28258086 0x28208086 0x522910b9 0x528910b9 0x05911106 0x55131039 0x43721002 0x528810b9 0x437a1002 0x43821002 0x437a1002 0x21821019 0x43801019 0x43901002 0x43911002 0x43951002 0x436e1002 0x43941002 0x01801039 0x01821039 0x11831039 0x01831039 0x036e10de 0x00e310de 0x005410de 0x005510de 0x00ee10de</string>
+			<key>IOProbeScore</key>
+			<string>1000</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Serial ATA</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOATAFamily</key>
+		<string>1.5.0d1</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.1</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>9.4</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>9.4</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Local-Root</string>
+</dict>
+</plist>
+";
+		};
+/* End PBXBundleTarget section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B81C263FFB7832611CA28AA /* AppleVIAATA.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = AppleVIAATA.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A224C3EFF42367911CA2CB7 /* AppleVIAATARoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleVIAATARoot.h; sourceTree = "<group>"; };
+		1A224C3FFF42367911CA2CB7 /* AppleVIAATARoot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleVIAATARoot.cpp; sourceTree = "<group>"; };
+		427B811B05D00D0C002E36B6 /* AppleVIAATADriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleVIAATADriver.h; sourceTree = "<group>"; };
+		427B811C05D00D0C002E36B6 /* AppleVIAATADriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleVIAATADriver.cpp; sourceTree = "<group>"; };
+		427B812105D03550002E36B6 /* AppleVIAATATiming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleVIAATATiming.h; sourceTree = "<group>"; };
+		F547B64505CEA49A003145B8 /* AppleVIAATAChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleVIAATAChannel.h; sourceTree = "<group>"; };
+		F547B64605CEA49A003145B8 /* AppleVIAATAChannel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleVIAATAChannel.cpp; sourceTree = "<group>"; };
+		F554955305CD7DEF003B379E /* AppleVIAATAHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleVIAATAHardware.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		089C1677FE841209C02AAC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* AppleVIAATA */ = {
+			isa = PBXGroup;
+			children = (
+				247142CAFF3F8F9811CA285C /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = AppleVIAATA;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B81C263FFB7832611CA28AA /* AppleVIAATA.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247142CAFF3F8F9811CA285C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1A224C3EFF42367911CA2CB7 /* AppleVIAATARoot.h */,
+				1A224C3FFF42367911CA2CB7 /* AppleVIAATARoot.cpp */,
+				F547B64505CEA49A003145B8 /* AppleVIAATAChannel.h */,
+				F547B64605CEA49A003145B8 /* AppleVIAATAChannel.cpp */,
+				F554955305CD7DEF003B379E /* AppleVIAATAHardware.h */,
+				427B812105D03550002E36B6 /* AppleVIAATATiming.h */,
+				427B811B05D00D0C002E36B6 /* AppleVIAATADriver.h */,
+				427B811C05D00D0C002E36B6 /* AppleVIAATADriver.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		089C1674FE841209C02AAC07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A224C40FF42367911CA2CB7 /* AppleVIAATARoot.h in Headers */,
+				F554955405CD7DEF003B379E /* AppleVIAATAHardware.h in Headers */,
+				F547B64705CEA49A003145B8 /* AppleVIAATAChannel.h in Headers */,
+				427B811D05D00D0C002E36B6 /* AppleVIAATADriver.h in Headers */,
+				427B812205D03550002E36B6 /* AppleVIAATATiming.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DAB8DA140E8878680019493B /* Build configuration list for PBXProject "AppleVIAATA" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* AppleVIAATA */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				089C1673FE841209C02AAC07 /* AppleVIAATA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		089C1675FE841209C02AAC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089C1680FE841241C02AAC07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		089C1679FE841209C02AAC07 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06AA1264FFB2107B11CA28AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPostprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
+		};
+		06AA1267FFB2110C11CA28AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPreprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		089C1676FE841209C02AAC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A224C41FF42367911CA2CB7 /* AppleVIAATARoot.cpp in Sources */,
+				F547B64805CEA49A003145B8 /* AppleVIAATAChannel.cpp in Sources */,
+				427B811E05D00D0C002E36B6 /* AppleVIAATADriver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB8DA0E0E8878680019493B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "";
+			};
+			name = Debug;
+		};
+		DAB8DA0F0E8878680019493B /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		DAB8DA100E8878680019493B /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		DAB8DA110E8878680019493B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions/IOATAFamily.kext/Contents/PlugIns";
+				KERNEL_MODULE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MODULE_IOKIT = YES;
+				MODULE_NAME = com.apple.driver.AppleVIAATA;
+				MODULE_VERSION = 1.0.2;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "-DFEDE_DEBUG";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AppleVIAATA;
+				SECTORDER_FLAGS = "";
+				VALID_ARCHS = i386;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = kext;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		DAB8DA120E8878680019493B /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions/IOATAFamily.kext/Contents/PlugIns";
+				KERNEL_MODULE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MODULE_IOKIT = YES;
+				MODULE_NAME = com.apple.driver.AppleVIAATA;
+				MODULE_VERSION = 1.0.2;
+				OPTIMIZATION_CFLAGS = "-O3";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AppleVIAATA;
+				SECTORDER_FLAGS = "";
+				VALID_ARCHS = i386;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = kext;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		DAB8DA130E8878680019493B /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions/IOATAFamily.kext/Contents/PlugIns";
+				KERNEL_MODULE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MODULE_IOKIT = YES;
+				MODULE_NAME = com.apple.driver.AppleVIAATA;
+				MODULE_VERSION = 1.0.2;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AppleVIAATA;
+				SECTORDER_FLAGS = "";
+				VALID_ARCHS = i386;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB8DA140E8878680019493B /* Build configuration list for PBXProject "AppleVIAATA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB8DA0E0E8878680019493B /* Debug */,
+				DAB8DA0F0E8878680019493B /* Deployment */,
+				DAB8DA100E8878680019493B /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DAB8DA150E8878680019493B /* Build configuration list for PBXBundleTarget "AppleVIAATA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB8DA110E8878680019493B /* Debug */,
+				DAB8DA120E8878680019493B /* Deployment */,
+				DAB8DA130E8878680019493B /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

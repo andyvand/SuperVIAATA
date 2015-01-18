@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Deployment;
+		activeTarget = 089C1673FE841209C02AAC07 /* AppleVIAATA */;
+		addToTargets = (
+			089C1673FE841209C02AAC07 /* AppleVIAATA */,
+		);
+		codeSenseManager = DAB8DA170E8878680019493B /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					542,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					540,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					396,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					592,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					634,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					356,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 250679998;
+			PBXWorkspaceStateSaveDate = 250679998;
+		};
+		perUserProjectItems = {
+			DA6664E60EF112E1006EC371 /* PBXTargetBookmark */ = DA6664E60EF112E1006EC371 /* PBXTargetBookmark */;
+			DA6664E70EF112E1006EC371 /* PBXTargetBookmark */ = DA6664E70EF112E1006EC371 /* PBXTargetBookmark */;
+			DA6664E80EF112E1006EC371 /* PBXTextBookmark */ = DA6664E80EF112E1006EC371 /* PBXTextBookmark */;
+			DADC24E30EF10DBD00B37AC6 = DADC24E30EF10DBD00B37AC6 /* PBXBookmark */;
+			DADC25060EF110FD00B37AC6 = DADC25060EF110FD00B37AC6 /* PBXTextBookmark */;
+		};
+		sourceControlManager = DAB8DA160E8878680019493B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C1673FE841209C02AAC07 /* AppleVIAATA */ = {
+		activeExec = 0;
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 614}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 213}";
+			sepNavWindowFrame = "{{-1009, 277}, {902, 742}}";
+		};
+	};
+	1A224C3EFF42367911CA2CB7 /* AppleVIAATARoot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {804, 1358}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1932}";
+			sepNavWindowFrame = "{{15, -1}, {863, 874}}";
+		};
+	};
+	1A224C3FFF42367911CA2CB7 /* AppleVIAATARoot.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 9142}}";
+			sepNavSelRange = "{17958, 0}";
+			sepNavVisRange = "{0, 1712}";
+			sepNavWindowFrame = "{{337, 128}, {750, 874}}";
+		};
+	};
+	427B811B05D00D0C002E36B6 /* AppleVIAATADriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {804, 2128}}";
+			sepNavSelRange = "{1753, 0}";
+			sepNavVisRange = "{1527, 1887}";
+			sepNavWindowFrame = "{{15, -1}, {863, 874}}";
+		};
+	};
+	427B811C05D00D0C002E36B6 /* AppleVIAATADriver.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 18606}}";
+			sepNavSelRange = "{33500, 5416}";
+			sepNavVisRange = "{33258, 1358}";
+			sepNavWindowFrame = "{{194, 165}, {927, 768}}";
+		};
+	};
+	427B812105D03550002E36B6 /* AppleVIAATATiming.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {804, 2632}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{4379, 1560}";
+			sepNavWindowFrame = "{{15, -1}, {863, 874}}";
+		};
+	};
+	DA6664E60EF112E1006EC371 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 089C1673FE841209C02AAC07 /* AppleVIAATA */;
+	};
+	DA6664E70EF112E1006EC371 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 089C1673FE841209C02AAC07 /* AppleVIAATA */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {617, 472}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {246, 594}}";
+			TOCViewSelectedItems = (
+				"com.apple.target-editor-pane.settings.compiler.gcc",
+			);
+		};
+	};
+	DA6664E80EF112E1006EC371 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 427B811C05D00D0C002E36B6 /* AppleVIAATADriver.cpp */;
+		name = "AppleVIAATADriver.cpp: 1024";
+		rLen = 5416;
+		rLoc = 33500;
+		rType = 0;
+		vrLen = 1358;
+		vrLoc = 33258;
+	};
+	DAB8DA160E8878680019493B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = googlecode;
+		};
+	};
+	DAB8DA170E8878680019493B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DADC24E30EF10DBD00B37AC6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 427B811C05D00D0C002E36B6 /* AppleVIAATADriver.cpp */;
+	};
+	DADC25060EF110FD00B37AC6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 427B811C05D00D0C002E36B6 /* AppleVIAATADriver.cpp */;
+		name = "AppleVIAATADriver.cpp: 1024";
+		rLen = 5416;
+		rLoc = 33500;
+		rType = 0;
+		vrLen = 1453;
+		vrLoc = 33256;
+	};
+	F547B64505CEA49A003145B8 /* AppleVIAATAChannel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {440, 1190}}";
+			sepNavSelRange = "{1192, 0}";
+			sepNavVisRange = "{0, 663}";
+			sepNavWindowFrame = "{{619, 4}, {863, 874}}";
+		};
+	};
+	F547B64605CEA49A003145B8 /* AppleVIAATAChannel.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 3640}}";
+			sepNavSelRange = "{7238, 0}";
+			sepNavVisRange = "{0, 1806}";
+			sepNavWindowFrame = "{{124, 4}, {750, 874}}";
+		};
+	};
+	F554955305CD7DEF003B379E /* AppleVIAATAHardware.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {804, 1946}}";
+			sepNavSelRange = "{4665, 0}";
+			sepNavVisRange = "{1622, 1981}";
+			sepNavWindowFrame = "{{422, -1}, {863, 874}}";
+		};
+	};
+}
